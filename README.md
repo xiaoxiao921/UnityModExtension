@@ -6,4 +6,6 @@ The button starts the specified target executable and launch the debugger on a p
 
 This extension was made for BepInEx plugins for Unity games in mind.
 
-For this extension to work properly you also need the [Tools for Unity Extension](https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows) installed.
+For this extension to work properly you also need : 
+- The [Tools for Unity Extension](https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows) installed.
+- [A debug version of the mono runtime dll that is used by the unity game](https://github.com/dnSpyEx/dnSpy/wiki/Debugging-Unity-Games)
