@@ -89,6 +89,8 @@ namespace UnityModExtension.Commands.Debug
             var menuCommandID = new CommandID(CommandSet, CommandId);
             var menuItem = new OleMenuCommand(Execute, menuCommandID);
             commandService.AddCommand(menuItem);
+
+            // https://github.com/AChubatova/VisualStudioSolution/blob/b1abb66d4c93bfcc6445f313e3a0507d28c94139/CommandWithArguments/CommandWithArguments/CommandWithArguments.cs#L37
         }
 
         /// <summary>
